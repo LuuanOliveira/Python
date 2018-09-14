@@ -16,13 +16,13 @@ for letter in nome:
         sys.exit();
 while True:
     try:
-        dia = int(input('\033[30mDigite o dia do seu nascimento: \033[m'))
+        dia = int(input('\033[30mDigite o DIA do seu nascimento: \033[m'))
         if dia > 31:
             print('\033[31m=' * 30, '\033[m')
             print('\033[31mDIA DE NASCIMENTO INVÁLIDO\033[m')
             playsound.playsound('signos.mp3') # Som Erro
             sys.exit();
-        mes = int(input('\033[30mDigite o mês do seu nascimento: \033[m'))
+        mes = int(input('\033[30mDigite o MÊS do seu nascimento: \033[m'))
         if mes > 12:
             print('\033[31m=' * 30, '\033[m')
             print('\033[31mMÊS DE NASCIMENTO INVÁLIDO\033[m')
@@ -52,7 +52,7 @@ while True:
             mes = 'NOVEMBRO'
         if mes == 12:
             mes = 'DEZEMBRO'
-        ano = int(input('\033[30mDigite o ano do seu aniversário: \033[m'))
+        ano = int(input('\033[30mDigite o ANO do seu nascimento: \033[m'))
         print('\033[36m|\033[m')
         if ano < 1900:  # Usuário pode ter no máximo 118 anos
             print('\033[31m=' * 30, '\033[m')
