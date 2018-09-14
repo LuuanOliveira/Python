@@ -1,14 +1,15 @@
 import sys
+import emoji
 print('\033[32m=== UNIVERSIDADE ===\033[m')
 nome = str(input('\033[30mNome do Aluno: \033[m')).upper()
 if nome == ' '.strip():  # Verificação caso o campo nome esteja vazio
     print('\033[31m=' * 20, '\033[m')
-    print('\033[31mNOME INVÁLIDO\033[m')
+    print(emoji.emojize('\033[31m==NOME INVÁLIDO :no_entry: ==\033[m', use_aliases=True))
     sys.exit();
 for letter in nome:  # Verificação caso o campo nome receba um valor int
     if letter.isdigit():
         print('\033[31m=' * 20, '\033[m')
-        print('\033[31mNOME INVÁLIDO\033[m')
+        print(emoji.emojize('\033[31m==NOME INVÁLIDO :no_entry: ==\033[m', use_aliases=True))
         sys.exit();
 while True:
     try:
