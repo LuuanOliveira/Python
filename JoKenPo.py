@@ -1,3 +1,4 @@
+import emoji
 import sys
 from random import randint
 from time import sleep
@@ -11,11 +12,11 @@ while True:
     try:
         jogador = int(input('\033[30mQual sua jogada: \033[m'))
         if jogador > 2:
-            print('\033[31mJOGADA INVÁLIDA\033[m')
+            print(emoji.emojize('\033[31m==JOGADA INVÁLIDA :loudspeaker: ==\033[m', use_aliases=True))
             sys.exit();
         break
     except ValueError:
-        print('\033[31mJOGADA INVÁLIDA\033[m')
+        print(emoji.emojize('\033[31m==JOGADA INVÁLIDA :loudspeaker: ==\033[m', use_aliases=True))
         sys.exit();
 print('\033[35mJO\033[m')
 sleep(1)

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e44ac25-6632-479a-83a0-d81ba6b1df7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Signos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Signos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoKenPo.py" beforeDir="false" afterPath="$PROJECT_DIR$/JoKenPo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +14,7 @@
     <session id="144707746">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -34,22 +34,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="32" />
+          <entry key="py" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="32" />
+          <entry key="Python" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3549" />
+          <entry key="py" value="3576" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3549" />
+          <entry key="Python" value="3576" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -57,23 +57,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fila.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JoKenPo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-227">
-              <caret line="92" column="18" lean-forward="true" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+            <state relative-caret-position="408">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Signos.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="91" column="134" selection-start-line="91" selection-start-column="134" selection-end-line="91" selection-end-column="134" />
             </state>
           </provider>
         </entry>
@@ -94,13 +85,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Media.py" />
-        <option value="$PROJECT_DIR$/JoKenPo.py" />
         <option value="$PROJECT_DIR$/Fila.py" />
         <option value="$PROJECT_DIR$/Signos.py" />
+        <option value="$PROJECT_DIR$/JoKenPo.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="20" />
     <option name="y" value="6" />
     <option name="width" value="1346" />
@@ -130,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Signos">
+  <component name="RunManager" selected="Python.JoKenPo">
     <configuration name="Fila" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Exercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,9 +214,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.JoKenPo" />
         <item itemvalue="Python.Signos" />
         <item itemvalue="Python.Fila" />
-        <item itemvalue="Python.JoKenPo" />
         <item itemvalue="Python.Media" />
       </list>
     </recent_temporary>
@@ -244,8 +235,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -270,13 +260,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JoKenPo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Media.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-278">
@@ -284,20 +267,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Signos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="91" column="134" selection-start-line="91" selection-start-column="134" selection-end-line="91" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fila.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-227">
-          <caret line="92" column="18" lean-forward="true" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+        <state relative-caret-position="374">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="101" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Signos.py">
+    <entry file="file://$PROJECT_DIR$/JoKenPo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="91" column="134" selection-start-line="91" selection-start-column="134" selection-end-line="91" selection-end-column="134" />
+        <state relative-caret-position="408">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
