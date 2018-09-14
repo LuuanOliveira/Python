@@ -77,7 +77,7 @@ def runGame(data): # Chamada da função
         print(player+' \033[36mé o Jogador Número:  \033[m' + str(i))
         i = i + 1;
         venc.append(player) # Acrescentar Jogador
-    print('\033[33m=' * 20, '\033[m')
+    # print('\033[33m=' * 20, '\033[m')
     print('''\033[30m
         [ 1 ] {}
         [ 2 ] {}\033[m'''.format(venc[0], venc[1]))
@@ -92,6 +92,27 @@ def runGame(data): # Chamada da função
     elif result == 2:
         result = 1
     result = result - 1;
+    print('''\033[30m NESTE PERIODO DE TEMPO ENTROU MAIS ALGUEM?
+                    [ 1 ] SIM
+                    [ 2 ] NÃO\033[m''')
+    more = int(input('\033[34mInsira a opção: \033[34m'))
+    if more == 1:
+        addedPlayer = input('\033[34mInsira o nome do novo jogador: \033[34m')
+        ListaMembros.append(addedPlayer)
+        finishAdding = ' '
+        while finishAdding != True:
+            print('''\033[30m MAIS ALGUEM?
+                               [ 1 ] SIM
+                               [ 2 ] NÃO\033[m''')
+            continueToAdd = int(input('\033[34mInsira a opção: \033[34m'))
+            if continueToAdd == 1:
+                more1 = input('\033[34mInsira o nome do novo jogador: ? \033[34m')
+                ListaMembros.append(more1)
+            elif continueToAdd == 2:
+                finishAdding = True
+            elif continueToAdd > 2:
+                print('Cê é bobo?')
+                sys.exit()
     loser = players[result]
     print('\033[33m=' * 20, '\033[m')
     print(loser + ' \033[31m--PERDEU--\033[m')
