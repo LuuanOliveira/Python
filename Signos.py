@@ -89,7 +89,11 @@ if result: # Print quando obter o resuldado
     if mes == 'JULHO' and dia > 20 or mes == 'AGOSTO' and dia < 21:
         print('Seu Signo é LEÃO: ')
     if mes == 'AGOSTO' and dia > 20 or mes == 'SETEMBRO' and dia < 21:
-        print('Seu Signo é VIRGEM: ')
+        print('Seu Signo é VIRGEM: \nVirgem é um signo do elemento Terra, são marcados pela lentidão e por precisarem de segurança. \n'
+              'Todos os signos do zodíaco ligado ao elemento possuem uma ótima relação com a comida. \n'
+              'Assim como a terra, são firmes, estáveis e sólidos. Até mesmo nos momentos em que as pessoas mais se deixam levar pelas emoções, \n'
+              'Esse signo prefere apostar na sua estabilidade. Não somente em virgem mas também os outros signos do horóscopo que são regidos pelo elemento terra, \n'
+              'São muito cuidadosos e excessivamente críticos em suas relações interpessoais, ainda mais quando se trata de amor e sexo.')
     if mes == 'SETEMBRO' and dia > 20 or mes == 'OUTUBRO' and dia < 21:
         print('Seu Signo é LIBRA: ')
     if mes == 'OUTUBRO' and dia > 20 or mes == 'NOVEMBRO' and dia < 21:
