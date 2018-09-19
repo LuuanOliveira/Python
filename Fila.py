@@ -1,7 +1,6 @@
 import emoji
 import sys
 import playsound
-from time import sleep
 print('\033[34mFILA\033[m')
 print('\033[36m|\033[m')
 ListaMembros = []
@@ -28,7 +27,7 @@ while finish != True: # Se finish for diferente de vazio
         try:
             proximo = int(input('\033[30m? \033[m'))
         except ValueError:
-            print(emoji.emojize('\033[31m==OPÇÃO INVÁLIDA :loudspeaker: ==\033[m', use_aliases=True))
+            print(emoji.emojize('\033[31m==OPÇÃO INVÁLIDA :loudspeaker:\033[m', use_aliases=True))
             playsound.playsound('signos.mp3') # Som Erro
             sys.exit();
             print('\033[33m=' * 20, '\033[m')
@@ -38,11 +37,11 @@ while finish != True: # Se finish for diferente de vazio
             try:
                 proximo = int(input('\033[30m? \033[m'))
             except ValueError:
-                print(emoji.emojize('\033[31m==OPÇÃO INVÁLIDA :loudspeaker: ==\033[m', use_aliases=True))
+                print(emoji.emojize('\033[31m==OPÇÃO INVÁLIDA== :loudspeaker:\033[m', use_aliases=True))
                 playsound.playsound('signos.mp3')  # Som Erro
                 sys.exit();
         if proximo > 2:
-            print(emoji.emojize('\033[31m==OPÇÃO INVÁLIDA :loudspeaker: ==\033[m', use_aliases=True))
+            print(emoji.emojize('\033[31m==OPÇÃO INVÁLIDA== :loudspeaker: \033[m', use_aliases=True))
             playsound.playsound('signos.mp3')  # Som Erro
             sys.exit();
             print('\033[33m=' * 20, '\033[m')
@@ -52,7 +51,7 @@ while finish != True: # Se finish for diferente de vazio
             try:
                 proximo = int(input('\033[30m? \033[m'))
             except ValueError:
-                print(emoji.emojize('\033[31m==OPÇÃO INVÁLIDA :loudspeaker: ==\033[m', use_aliases=True))
+                print(emoji.emojize('\033[31m==OPÇÃO INVÁLIDA== :loudspeaker:\033[m', use_aliases=True))
                 playsound.playsound('signos.mp3')  # Som Erro
                 sys.exit();
                 print('\033[33m=' * 20, '\033[m')
@@ -61,7 +60,7 @@ while finish != True: # Se finish for diferente de vazio
                 [ 2 ] NÃO\033[m''')
                 proximo = int(input('\033[30m? \033[m'))
                 if proximo > 2:
-                    print(emoji.emojize('\033[31m==OPÇÃO INVÁLIDA :loudspeaker: ==\033[m', use_aliases=True))
+                    print(emoji.emojize('\033[31m==OPÇÃO INVÁLIDA== :loudspeaker:\033[m', use_aliases=True))
                     playsound.playsound('signos.mp3')  # Som Erro
                     sys.exit();
         if proximo == 2:
@@ -77,14 +76,12 @@ def runGame(data): # Chamada da função
         print(player+' \033[36mé o Jogador Número:  \033[m' + str(i))
         i = i + 1;
         venc.append(player) # Acrescentar Jogador
-    # print('\033[33m=' * 20, '\033[m')
-    print('''\033[30m
-        [ 1 ] {}
-        [ 2 ] {}\033[m'''.format(venc[0], venc[1]))
+    print('\033[33m=' * 20, '\033[m')
+    print('''\033[30m[ 1 ] {}\n[ 2 ] {}\033[m'''.format(venc[0], venc[1]))
     try:
         result = int(input('\033[34mQUEM VENCEU ? \033[34m'))
     except ValueError:
-        print(emoji.emojize('\033[31m==OPÇÃO INVÁLIDA :loudspeaker: ==\033[m', use_aliases=True))
+        print(emoji.emojize('\033[31m==OPÇÃO INVÁLIDA :loudspeaker:\033[m', use_aliases=True))
         playsound.playsound('signos.mp3')  # Som Erro
         sys.exit();
     if result == 1:
@@ -92,35 +89,32 @@ def runGame(data): # Chamada da função
     elif result == 2:
         result = 1
     result = result - 1;
-    print('''\033[30m NESTE PERIODO DE TEMPO ENTROU MAIS ALGUEM?
-                    [ 1 ] SIM
-                    [ 2 ] NÃO\033[m''')
-    more = int(input('\033[34mInsira a opção: \033[34m'))
+    print('\033[33m=' * 20, '\033[m')
+    print('''\033[30mENTROU MAIS ALGUEM?\n[ 1 ] SIM\n[ 2 ] NÃO\033[m''')
+    more = int(input('\033[35mINSIRA À OPÇÃO: \033[m'))
     if more == 1:
-        addedPlayer = input('\033[34mInsira o nome do novo jogador: \033[34m')
+        addedPlayer = str(input('\033[36mINSIRA O NOME DO JOGADOR: \033[m')).upper().strip().lstrip().rstrip()
         ListaMembros.append(addedPlayer)
         finishAdding = ' '
         while finishAdding != True:
-            print('''\033[30m MAIS ALGUEM?
-                               [ 1 ] SIM
-                               [ 2 ] NÃO\033[m''')
-            continueToAdd = int(input('\033[34mInsira a opção: \033[34m'))
+            print('''\033[30mMAIS ALGUEM?\n[ 1 ] SIM\n[ 2 ] NÃO\033[m''')
+            continueToAdd = int(input('\033[35mINSIRA À OPÇÃO: \033[m'))
             if continueToAdd == 1:
-                more1 = input('\033[34mInsira o nome do novo jogador: ? \033[34m')
+                more1 = str(input('\033[36mINSIRA O NOME DO JOGADOR: \033[m')).upper().strip().lstrip().rstrip()
                 ListaMembros.append(more1)
             elif continueToAdd == 2:
                 finishAdding = True
             elif continueToAdd > 2:
-                print('Cê é bobo?')
+                print('\033[31m==VOCÊ É BOBO?==\033[m')
                 sys.exit()
     loser = players[result]
     print('\033[33m=' * 20, '\033[m')
-    print(loser + ' \033[31m--PERDEU--\033[m')
+    print(emoji.emojize(loser + '\033[31m--PERDEU-- :loudspeaker:\033[m', use_aliases=True))
     if len(data) > 2:
         print('\033[36m|\033[m')
         print(data[2]+' \033[35m--ENTRA AGORA--\033[m')
         print('\033[33m=' * 20, '\033[m')
-        print('\033[36mLista de Próximos: \033[m')
+        print('\033[36mLISTA DE PRÓXIMOS: \033[m')
         if len(data) > 3:
             print(' - '+data[3])
         if len(data) > 4:
