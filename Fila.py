@@ -135,7 +135,6 @@ def runGame(data): # Chamada da função
 # while runAgain != True:
 while True:
     runGame(ListaMembros)
-    sleep(3)
     # print('''\033[30
     # [ 1 ] SIM
     # [ 2 ] NÃO\033[m''')

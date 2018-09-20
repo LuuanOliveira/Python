@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e44ac25-6632-479a-83a0-d81ba6b1df7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Teste.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Exercicios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Exercicios.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fila.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fila.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Signos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Signos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,31 +59,33 @@
     <session id="685213777">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="916" />
+          <entry key="py" value="952" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="916" />
+          <entry key="Python" value="952" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="14" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="14" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -94,10 +93,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Teste.py">
+        <entry file="file://$PROJECT_DIR$/Fila.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="2040">
+              <caret line="136" column="25" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,17 +123,17 @@
         <option value="$PROJECT_DIR$/JoKenPo.py" />
         <option value="$PROJECT_DIR$/Signos.py" />
         <option value="$PROJECT_DIR$/Matriz.py" />
+        <option value="$PROJECT_DIR$/000001.py" />
         <option value="$PROJECT_DIR$/Teste.py" />
         <option value="$PROJECT_DIR$/Fila.py" />
-        <option value="$PROJECT_DIR$/000001.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="6" />
-    <option name="width" value="1346" />
-    <option name="height" value="698" />
+    <option name="x" value="1366" />
+    <option name="y" value="-2" />
+    <option name="width" value="1024" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -160,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.000001">
+  <component name="RunManager" selected="Python.Fila">
     <configuration name="000001" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Exercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -275,9 +277,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.000001" />
         <item itemvalue="Python.Fila" />
         <item itemvalue="Python.Teste" />
+        <item itemvalue="Python.000001" />
         <item itemvalue="Python.Media" />
         <item itemvalue="Python.Matriz" />
       </list>
@@ -297,7 +299,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="1366" y="-2" width="1024" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -345,27 +347,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/000001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="4" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/000001.py" />
+    <entry file="file://$PROJECT_DIR$/Teste.py" />
     <entry file="file://$PROJECT_DIR$/Fila.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="2040">
+          <caret line="136" column="25" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Teste.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
